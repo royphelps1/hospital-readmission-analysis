@@ -114,8 +114,8 @@ Future phases:
 
 ## Authors
 
-Roy Phelps
-Michael Ryan
+* Roy Phelps
+* Michael Ryan
 
 
 Drexel University
