@@ -115,8 +115,9 @@ Future phases:
 ## Author
 
 **Roy Phelps**
+**Michael Ryan***
 
-Master of Science in Data Science
+
 Drexel University
 
 ---
