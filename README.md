@@ -112,10 +112,10 @@ Future phases:
 
 ---
 
-## Author
+## Authors
 
-**Roy Phelps**
-**Michael Ryan***
+Roy Phelps
+Michael Ryan
 
 
 Drexel University
