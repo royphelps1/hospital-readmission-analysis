@@ -94,7 +94,7 @@ This project seeks to answer questions such as:
 
 ## Project Status
 
-🚧 In Progress
+* In Progress
 
 Current phase:
 
