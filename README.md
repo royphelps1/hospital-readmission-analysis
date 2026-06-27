@@ -25,7 +25,7 @@ This project is being completed as part of the **DSCI-521: Foundations of Data S
 
 ## Dataset
 
-This project uses a **synthetic healthcare dataset** obtained from Kaggle for educational purposes.
+https://www.kaggle.com/datasets/mohamedasak/hospital-patient-readmission-dataset
 
 The dataset contains patient demographic, clinical, and hospitalization information, including:
 
