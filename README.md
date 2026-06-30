@@ -116,6 +116,8 @@ Future phases:
 
 * Roy Phelps
 * Michael Ryan
+* Shelby Frisbie
+* Saad Majid
 
 
 Drexel University
