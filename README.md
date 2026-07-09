@@ -74,7 +74,8 @@ hospital-readmission-analysis
 2. Install the required Python libraries:
 
 ```bash
-pip install pandas numpy matplotlib scikit-learn openpyxl
+pip install pandas numpy matplotlib pathlib seaborn 
+From Bokeh package: output_notebook, show 
 ```
 
 3. Launch Jupyter Notebook.
