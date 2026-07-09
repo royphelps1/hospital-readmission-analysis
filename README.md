@@ -104,6 +104,7 @@ from bokeh.palettes import RdBu11
 * Pandas
 * NumPy
 * Matplotlib
+* seaborn 
 * from bokeh.io import output_notebook, show
 * from bokeh.plotting import figure
 * from bokeh.models import ColumnDataSource, HoverTool, FactorRange
