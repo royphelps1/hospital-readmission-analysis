@@ -75,7 +75,16 @@ hospital-readmission-analysis
 
 ```bash
 pip install pandas numpy matplotlib pathlib seaborn 
-From Bokeh package: output_notebook, show 
+from bokeh.io import output_notebook, show
+from bokeh.plotting import figure
+from bokeh.models import ColumnDataSource, HoverTool, FactorRange
+from bokeh.layouts import column
+from bokeh.transform import factor_cmap
+from bokeh.palettes import Category10
+from bokeh.models import LinearColorMapper, ColorBar
+from bokeh.palettes import RdBu11 
+
+
 ```
 
 3. Launch Jupyter Notebook.
@@ -95,7 +104,14 @@ From Bokeh package: output_notebook, show
 * Pandas
 * NumPy
 * Matplotlib
-* Scikit-learn
+* from bokeh.io import output_notebook, show
+* from bokeh.plotting import figure
+* from bokeh.models import ColumnDataSource, HoverTool, FactorRange
+* from bokeh.layouts import column
+* from bokeh.transform import factor_cmap
+* from bokeh.palettes import Category10
+* from bokeh.models import LinearColorMapper, ColorBar
+* from bokeh.palettes import RdBu11
 
 Additional libraries may be incorporated throughout the project as needed.
 
