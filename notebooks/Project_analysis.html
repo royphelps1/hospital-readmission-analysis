@@ -8870,7 +8870,7 @@ Name: proportion, dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Using the package Bokha, we create some interacive charts</span>
@@ -8902,27 +8902,17 @@ Name: proportion, dtype: float64
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Collecting bokeh
-  Downloading bokeh-3.9.2-py3-none-any.whl.metadata (10 kB)
+<pre>Requirement already satisfied: bokeh in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (3.9.2)
 Requirement already satisfied: Jinja2&gt;=2.9 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (3.1.6)
 Requirement already satisfied: contourpy&gt;=1.2 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (1.3.3)
-Collecting narwhals&gt;=1.13 (from bokeh)
-  Downloading narwhals-2.24.0-py3-none-any.whl.metadata (15 kB)
+Requirement already satisfied: narwhals&gt;=1.13 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (2.24.0)
 Requirement already satisfied: numpy&gt;=1.16 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (2.3.5)
 Requirement already satisfied: packaging&gt;=16.8 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (25.0)
 Requirement already satisfied: pillow&gt;=7.1.0 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (12.0.0)
 Requirement already satisfied: PyYAML&gt;=3.10 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (6.0.3)
 Requirement already satisfied: tornado&gt;=6.2 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (6.5.1)
-Collecting xyzservices&gt;=2021.09.1 (from bokeh)
-  Downloading xyzservices-2026.3.0-py3-none-any.whl.metadata (4.1 kB)
+Requirement already satisfied: xyzservices&gt;=2021.09.1 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from bokeh) (2026.3.0)
 Requirement already satisfied: MarkupSafe&gt;=2.0 in /Users/royphelps/miniconda3/envs/ds/lib/python3.11/site-packages (from Jinja2&gt;=2.9-&gt;bokeh) (3.0.2)
-Downloading bokeh-3.9.2-py3-none-any.whl (6.4 MB)
-   <span style="color: rgb(114,156,31)">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">6.4/6.4 MB</span> <span class="ansi-red-fg">3.3 MB/s</span>  <span class="ansi-yellow-fg">0:00:02</span>m <span class="ansi-red-fg">3.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:01</span>
-Downloading narwhals-2.24.0-py3-none-any.whl (461 kB)
-Downloading xyzservices-2026.3.0-py3-none-any.whl (94 kB)
-Installing collected packages: xyzservices, narwhals, bokeh
-   <span style="color: rgb(114,156,31)">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">3/3</span> [bokeh]━━━━━━━━━━━━ <span class="ansi-green-fg">2/3</span> [bokeh]
-Successfully installed bokeh-3.9.2 narwhals-2.24.0 xyzservices-2026.3.0
 </pre>
 </div>
 </div>
@@ -8939,15 +8929,15 @@ Successfully installed bokeh-3.9.2 narwhals-2.24.0 xyzservices-2026.3.0
     </style>
 <div>
 <a class="bk-notebook-logo" href="https://bokeh.org" target="_blank"></a>
-<span id="d3b8f649-134d-407d-8d0d-4263f5e3f29d">Loading BokehJS ...</span>
+<span id="fdbe7529-5aac-4798-9aec-33ea1a67b170">Loading BokehJS ...</span>
 </div>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="ba62a6c2-4bf4-4a3c-bb44-d5f5c06aa973" tabindex="0">
+<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="ff19a153-130a-4d10-9d00-abac55019953" tabindex="0">
 <script type="text/javascript">
-var element = document.getElementById('ba62a6c2-4bf4-4a3c-bb44-d5f5c06aa973');
+var element = document.getElementById('ff19a153-130a-4d10-9d00-abac55019953');
 'use strict';
 (function(root) {
   function now() {
@@ -9111,7 +9101,7 @@ const JS_MIME_TYPE = 'application/javascript';
      "</div>"}};
 
   function display_loaded(error = null) {
-    const el = document.getElementById("d3b8f649-134d-407d-8d0d-4263f5e3f29d");
+    const el = document.getElementById("fdbe7529-5aac-4798-9aec-33ea1a67b170");
     if (el != null) {
       const html = (() => {
         if (typeof root.Bokeh === "undefined") {
@@ -9245,7 +9235,7 @@ function(Bokeh) {
       console.log("Bokeh: BokehJS failed to load within specified timeout.");
       root._bokeh_failed_load = true;
     } else if (force !== true) {
-      const cell = $(document.getElementById("d3b8f649-134d-407d-8d0d-4263f5e3f29d")).parents('.cell').data().cell;
+      const cell = $(document.getElementById("fdbe7529-5aac-4798-9aec-33ea1a67b170")).parents('.cell').data().cell;
       cell.output_area.append_execute_result(NB_LOAD_WARNING)
     }
   }
@@ -9281,7 +9271,7 @@ function(Bokeh) {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Readmission counts by primary diagnosis</span>
@@ -9349,18 +9339,18 @@ function(Bokeh) {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<div data-root-id="p1012" id="fc8c6244-6bb6-4c91-9f63-8e3e871aa250" style="display: contents;"></div>
+<div data-root-id="p1012" id="d3ec8e85-e67b-4959-a254-18bd65f8b360" style="display: contents;"></div>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="76208e54-8ce7-44b5-87db-fda31a58b562" tabindex="0">
+<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="ff9b765c-0bb6-435a-b2c1-f39744d53a6e" tabindex="0">
 <script type="text/javascript">
-var element = document.getElementById('76208e54-8ce7-44b5-87db-fda31a58b562');
+var element = document.getElementById('ff9b765c-0bb6-435a-b2c1-f39744d53a6e');
 (function(root) {
   function embed_document(root) {
-  const docs_json = {"bf334244-823d-4d38-8857-8895140afe18":{"version":"3.9.2","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1054","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1055"}}},"roots":[{"type":"object","name":"Figure","id":"p1012","attributes":{"width":900,"height":450,"x_range":{"type":"object","name":"FactorRange","id":"p1011","attributes":{"factors":[["Appendicitis","Not Readmitted"],["Appendicitis","Readmitted"],["COPD","Not Readmitted"],["COPD","Readmitted"],["Diabetes","Not Readmitted"],["Diabetes","Readmitted"],["Fracture","Not Readmitted"],["Fracture","Readmitted"],["Heart Failure","Not Readmitted"],["Heart Failure","Readmitted"],["Hypertension","Not Readmitted"],["Hypertension","Readmitted"],["Influenza","Not Readmitted"],["Influenza","Readmitted"],["Kidney Disease","Not Readmitted"],["Kidney Disease","Readmitted"],["Pneumonia","Not Readmitted"],["Pneumonia","Readmitted"],["Sepsis","Not Readmitted"],["Sepsis","Readmitted"],["Stroke","Not Readmitted"],["Stroke","Readmitted"]]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1014"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1022"},"y_scale":{"type":"object","name":"LinearScale","id":"p1023"},"title":{"type":"object","name":"Title","id":"p1015","attributes":{"text":"Readmission Counts by Primary Diagnosis"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1050","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1008","attributes":{"selected":{"type":"object","name":"Selection","id":"p1009","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1010"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/w3DBw6AIBAAsENc4EAc//+qbdKIiORgdnRydnG1WN3cPTxtXnZvH18/f//LD81YAAAA"},"shape":[22],"dtype":"int32","order":"little"}],["primary_diagnosis",{"type":"ndarray","array":["Appendicitis","Appendicitis","COPD","COPD","Diabetes","Diabetes","Fracture","Fracture","Heart Failure","Heart Failure","Hypertension","Hypertension","Influenza","Influenza","Kidney Disease","Kidney Disease","Pneumonia","Pneumonia","Sepsis","Sepsis","Stroke","Stroke"],"shape":[22],"dtype":"object","order":"little"}],["label",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/2NgYGBgBGIQoCYNALqishFYAAAA"},"shape":[22],"dtype":"int32","order":"little"}],["count",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/5vFwMBQw8jAUAukrZkZGDYC2bwsDAyNQL4hkG0JpKOAdDcQdwHlPYH8BUA8EYgvMzEw5ANpK6CcI5DeAKSbgPRHoDgAlhffhlgAAAA="},"shape":[22],"dtype":"int32","order":"little"}],["label_text",{"type":"ndarray","array":["Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted"],"shape":[22],"dtype":"object","order":"little"}],["x",{"type":"ndarray","array":[["Appendicitis","Not Readmitted"],["Appendicitis","Readmitted"],["COPD","Not Readmitted"],["COPD","Readmitted"],["Diabetes","Not Readmitted"],["Diabetes","Readmitted"],["Fracture","Not Readmitted"],["Fracture","Readmitted"],["Heart Failure","Not Readmitted"],["Heart Failure","Readmitted"],["Hypertension","Not Readmitted"],["Hypertension","Readmitted"],["Influenza","Not Readmitted"],["Influenza","Readmitted"],["Kidney Disease","Not Readmitted"],["Kidney Disease","Readmitted"],["Pneumonia","Not Readmitted"],["Pneumonia","Readmitted"],["Sepsis","Not Readmitted"],["Sepsis","Readmitted"],["Stroke","Not Readmitted"],["Stroke","Readmitted"]],"shape":[22],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1051","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1052"}}},"glyph":{"type":"object","name":"VBar","id":"p1047","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#1f77b4"},"fill_color":{"type":"field","field":"x","transform":{"type":"object","name":"CategoricalColorMapper","id":"p1046","attributes":{"palette":["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22","#17becf"],"factors":{"type":"ndarray","array":["Not Readmitted","Readmitted"],"shape":[2],"dtype":"object","order":"little"},"start":1,"end":2}}}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1048","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"x","transform":{"id":"p1046"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1049","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"x","transform":{"id":"p1046"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1021","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1034"},{"type":"object","name":"WheelZoomTool","id":"p1035","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1036","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1037","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1043","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1042","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1044"},{"type":"object","name":"SaveTool","id":"p1045"},{"type":"object","name":"HoverTool","id":"p1053","attributes":{"renderers":"auto","tooltips":[["Diagnosis","@primary_diagnosis"],["Readmission Status","@label_text"],["Patient Count","@count"]],"sort_by":null}}]}},"toolbar_location":"above","left":[{"type":"object","name":"LinearAxis","id":"p1029","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1030","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1031"},"axis_label":"Patient Count","major_label_policy":{"type":"object","name":"AllLabels","id":"p1032"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1024","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1025"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1026"},"axis_label":"Primary Diagnosis / Readmission Status","major_label_orientation":1.0,"major_label_policy":{"type":"object","name":"AllLabels","id":"p1027"}}}],"center":[{"type":"object","name":"Grid","id":"p1028","attributes":{"axis":{"id":"p1024"}}},{"type":"object","name":"Grid","id":"p1033","attributes":{"dimension":1,"axis":{"id":"p1029"}}}]}}]}};
-  const render_items = [{"docid":"bf334244-823d-4d38-8857-8895140afe18","roots":{"p1012":"fc8c6244-6bb6-4c91-9f63-8e3e871aa250"},"root_ids":["p1012"]}];
+  const docs_json = {"6be6408d-8f8f-4602-8646-9f745a604950":{"version":"3.9.2","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1054","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1055"}}},"roots":[{"type":"object","name":"Figure","id":"p1012","attributes":{"width":900,"height":450,"x_range":{"type":"object","name":"FactorRange","id":"p1011","attributes":{"factors":[["Appendicitis","Not Readmitted"],["Appendicitis","Readmitted"],["COPD","Not Readmitted"],["COPD","Readmitted"],["Diabetes","Not Readmitted"],["Diabetes","Readmitted"],["Fracture","Not Readmitted"],["Fracture","Readmitted"],["Heart Failure","Not Readmitted"],["Heart Failure","Readmitted"],["Hypertension","Not Readmitted"],["Hypertension","Readmitted"],["Influenza","Not Readmitted"],["Influenza","Readmitted"],["Kidney Disease","Not Readmitted"],["Kidney Disease","Readmitted"],["Pneumonia","Not Readmitted"],["Pneumonia","Readmitted"],["Sepsis","Not Readmitted"],["Sepsis","Readmitted"],["Stroke","Not Readmitted"],["Stroke","Readmitted"]]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1014"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1022"},"y_scale":{"type":"object","name":"LinearScale","id":"p1023"},"title":{"type":"object","name":"Title","id":"p1015","attributes":{"text":"Readmission Counts by Primary Diagnosis"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1050","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1008","attributes":{"selected":{"type":"object","name":"Selection","id":"p1009","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1010"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/w3DBw6AIBAAsENc4EAc//+qbdKIiORgdnRydnG1WN3cPTxtXnZvH18/f//LD81YAAAA"},"shape":[22],"dtype":"int32","order":"little"}],["primary_diagnosis",{"type":"ndarray","array":["Appendicitis","Appendicitis","COPD","COPD","Diabetes","Diabetes","Fracture","Fracture","Heart Failure","Heart Failure","Hypertension","Hypertension","Influenza","Influenza","Kidney Disease","Kidney Disease","Pneumonia","Pneumonia","Sepsis","Sepsis","Stroke","Stroke"],"shape":[22],"dtype":"object","order":"little"}],["label",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/2NgYGBgBGIQoCYNALqishFYAAAA"},"shape":[22],"dtype":"int32","order":"little"}],["count",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/5vFwMBQw8jAUAukrZkZGDYC2bwsDAyNQL4hkG0JpKOAdDcQdwHlPYH8BUA8EYgvMzEw5ANpK6CcI5DeAKSbgPRHoDgAlhffhlgAAAA="},"shape":[22],"dtype":"int32","order":"little"}],["label_text",{"type":"ndarray","array":["Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted","Not Readmitted","Readmitted"],"shape":[22],"dtype":"object","order":"little"}],["x",{"type":"ndarray","array":[["Appendicitis","Not Readmitted"],["Appendicitis","Readmitted"],["COPD","Not Readmitted"],["COPD","Readmitted"],["Diabetes","Not Readmitted"],["Diabetes","Readmitted"],["Fracture","Not Readmitted"],["Fracture","Readmitted"],["Heart Failure","Not Readmitted"],["Heart Failure","Readmitted"],["Hypertension","Not Readmitted"],["Hypertension","Readmitted"],["Influenza","Not Readmitted"],["Influenza","Readmitted"],["Kidney Disease","Not Readmitted"],["Kidney Disease","Readmitted"],["Pneumonia","Not Readmitted"],["Pneumonia","Readmitted"],["Sepsis","Not Readmitted"],["Sepsis","Readmitted"],["Stroke","Not Readmitted"],["Stroke","Readmitted"]],"shape":[22],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1051","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1052"}}},"glyph":{"type":"object","name":"VBar","id":"p1047","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#1f77b4"},"fill_color":{"type":"field","field":"x","transform":{"type":"object","name":"CategoricalColorMapper","id":"p1046","attributes":{"palette":["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22","#17becf"],"factors":{"type":"ndarray","array":["Not Readmitted","Readmitted"],"shape":[2],"dtype":"object","order":"little"},"start":1,"end":2}}}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1048","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"x","transform":{"id":"p1046"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1049","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"x","transform":{"id":"p1046"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1021","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1034"},{"type":"object","name":"WheelZoomTool","id":"p1035","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1036","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1037","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1043","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1042","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1044"},{"type":"object","name":"SaveTool","id":"p1045"},{"type":"object","name":"HoverTool","id":"p1053","attributes":{"renderers":"auto","tooltips":[["Diagnosis","@primary_diagnosis"],["Readmission Status","@label_text"],["Patient Count","@count"]],"sort_by":null}}]}},"toolbar_location":"above","left":[{"type":"object","name":"LinearAxis","id":"p1029","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1030","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1031"},"axis_label":"Patient Count","major_label_policy":{"type":"object","name":"AllLabels","id":"p1032"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1024","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1025"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1026"},"axis_label":"Primary Diagnosis / Readmission Status","major_label_orientation":1.0,"major_label_policy":{"type":"object","name":"AllLabels","id":"p1027"}}}],"center":[{"type":"object","name":"Grid","id":"p1028","attributes":{"axis":{"id":"p1024"}}},{"type":"object","name":"Grid","id":"p1033","attributes":{"dimension":1,"axis":{"id":"p1029"}}}]}}]}};
+  const render_items = [{"docid":"6be6408d-8f8f-4602-8646-9f745a604950","roots":{"p1012":"d3ec8e85-e67b-4959-a254-18bd65f8b360"},"root_ids":["p1012"]}];
   void root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
   }
   if (root.Bokeh !== undefined) {
@@ -9402,7 +9392,7 @@ var element = document.getElementById('76208e54-8ce7-44b5-87db-fda31a58b562');
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Interactive correlation heatmap for numeric variables</span>
@@ -9487,18 +9477,18 @@ var element = document.getElementById('76208e54-8ce7-44b5-87db-fda31a58b562');
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<div data-root-id="p1063" id="f4db9c4f-4464-4a89-8807-d54ab701d61c" style="display: contents;"></div>
+<div data-root-id="p1063" id="fd08630f-cd8e-453e-9694-197e18eb8d5c" style="display: contents;"></div>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="b8cd06c6-6f50-42fc-a692-454abd070db3" tabindex="0">
+<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="1864818b-cb6d-4d0f-8762-e65ea667d706" tabindex="0">
 <script type="text/javascript">
-var element = document.getElementById('b8cd06c6-6f50-42fc-a692-454abd070db3');
+var element = document.getElementById('1864818b-cb6d-4d0f-8762-e65ea667d706');
 (function(root) {
   function embed_document(root) {
-  const docs_json = {"680593db-5bfc-4223-bc72-9288c08e6602":{"version":"3.9.2","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1108","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1109"}}},"roots":[{"type":"object","name":"Figure","id":"p1063","attributes":{"width":850,"height":700,"x_range":{"type":"object","name":"FactorRange","id":"p1073","attributes":{"factors":["age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label"]}},"y_range":{"type":"object","name":"FactorRange","id":"p1074","attributes":{"factors":["label","readmission_risk_score","prev_readmissions","followup_visits_last_year","medications_count","length_of_stay","comorbidities_count","age"]}},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1075"},"y_scale":{"type":"object","name":"CategoricalScale","id":"p1076"},"title":{"type":"object","name":"Title","id":"p1066","attributes":{"text":"Correlation Heatmap of Numeric Features"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1102","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1059","attributes":{"selected":{"type":"object","name":"Selection","id":"p1060","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1061"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/w3DBVICQAAAwAOlpDukQaW7JP//K3ZnNoQQIkb98NOYcRMmTfll2oxZc+YtWLRk2YpVa9Zt2LTlt207du3Zd+DQkWN//PXPiVNnzl24dOXajVt37j149OTZi/9evXn34dOXb0eRjskAAQAA"},"shape":[64],"dtype":"int32","order":"little"}],["feature_1",{"type":"ndarray","array":["age","age","age","age","age","age","age","age","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","length_of_stay","length_of_stay","length_of_stay","length_of_stay","length_of_stay","length_of_stay","length_of_stay","length_of_stay","medications_count","medications_count","medications_count","medications_count","medications_count","medications_count","medications_count","medications_count","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","label","label","label","label","label","label","label","label"],"shape":[64],"dtype":"object","order":"little"}],["feature_2",{"type":"ndarray","array":["age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label"],"shape":[64],"dtype":"object","order":"little"}],["correlation",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/z2RIQyCQBiFzWQzVsxm9qJZM9msVTOZrNVuJovJOQubMIsiAzY1WDTL/cf7/wB3u73vvXvX65n5wHey7dx/olj2d+PiiPbTrhos5KDCSKZE7IavSVxjKotcdYJpOfb8jJXBLN+QX7+GoTtZiSDaf72gwc8zq1z9qCOHOSzn0Pknnd8VQwGdNCf9qCPHpHXDEpu1mULvM5O56J456UcdOTb3DRI/enR5Uu2F97M9JepHHTkDAVegP/tkL/YdrpqLftSRY/u76zuwT/ZCvs2Tqh915PwBs+LW+AACAAA="},"shape":[64],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1103","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1104"}}},"glyph":{"type":"object","name":"Rect","id":"p1099","attributes":{"x":{"type":"field","field":"feature_1"},"y":{"type":"field","field":"feature_2"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"correlation","transform":{"type":"object","name":"LinearColorMapper","id":"p1062","attributes":{"palette":["#2F3E46","#354F52","#52796F","#84A98C","#CAD2C5","#DDB892","#B08968","#7F5539","#5E3023","#3A1F16","#1B0F0A"],"low":-1,"high":1}}}}},"nonselection_glyph":{"type":"object","name":"Rect","id":"p1100","attributes":{"x":{"type":"field","field":"feature_1"},"y":{"type":"field","field":"feature_2"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"correlation","transform":{"id":"p1062"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Rect","id":"p1101","attributes":{"x":{"type":"field","field":"feature_1"},"y":{"type":"field","field":"feature_2"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"correlation","transform":{"id":"p1062"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1072","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1087"},{"type":"object","name":"WheelZoomTool","id":"p1088","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1089","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1090","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1096","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1095","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1097"},{"type":"object","name":"SaveTool","id":"p1098"},{"type":"object","name":"HoverTool","id":"p1105","attributes":{"renderers":"auto","tooltips":[["Feature 1","@feature_1"],["Feature 2","@feature_2"],["Correlation","@correlation"]],"sort_by":null}}]}},"toolbar_location":"above","left":[{"type":"object","name":"CategoricalAxis","id":"p1082","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1083"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1084"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1085"}}}],"right":[{"type":"object","name":"ColorBar","id":"p1106","attributes":{"location":[0,0],"title":"Correlation","major_label_policy":{"type":"object","name":"NoOverlap","id":"p1107"},"label_standoff":12,"color_mapper":{"id":"p1062"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1077","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1078"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1079"},"major_label_orientation":1.0,"major_label_policy":{"type":"object","name":"AllLabels","id":"p1080"}}}],"center":[{"type":"object","name":"Grid","id":"p1081","attributes":{"axis":{"id":"p1077"}}},{"type":"object","name":"Grid","id":"p1086","attributes":{"dimension":1,"axis":{"id":"p1082"}}}]}}]}};
-  const render_items = [{"docid":"680593db-5bfc-4223-bc72-9288c08e6602","roots":{"p1063":"f4db9c4f-4464-4a89-8807-d54ab701d61c"},"root_ids":["p1063"]}];
+  const docs_json = {"39c33c22-4080-4900-bd7e-66527690590e":{"version":"3.9.2","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1108","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1109"}}},"roots":[{"type":"object","name":"Figure","id":"p1063","attributes":{"width":850,"height":700,"x_range":{"type":"object","name":"FactorRange","id":"p1073","attributes":{"factors":["age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label"]}},"y_range":{"type":"object","name":"FactorRange","id":"p1074","attributes":{"factors":["label","readmission_risk_score","prev_readmissions","followup_visits_last_year","medications_count","length_of_stay","comorbidities_count","age"]}},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1075"},"y_scale":{"type":"object","name":"CategoricalScale","id":"p1076"},"title":{"type":"object","name":"Title","id":"p1066","attributes":{"text":"Correlation Heatmap of Numeric Features"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1102","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1059","attributes":{"selected":{"type":"object","name":"Selection","id":"p1060","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1061"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/w3DBVICQAAAwAOlpDukQaW7JP//K3ZnNoQQIkb98NOYcRMmTfll2oxZc+YtWLRk2YpVa9Zt2LTlt207du3Zd+DQkWN//PXPiVNnzl24dOXajVt37j149OTZi/9evXn34dOXb0eRjskAAQAA"},"shape":[64],"dtype":"int32","order":"little"}],["feature_1",{"type":"ndarray","array":["age","age","age","age","age","age","age","age","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","comorbidities_count","length_of_stay","length_of_stay","length_of_stay","length_of_stay","length_of_stay","length_of_stay","length_of_stay","length_of_stay","medications_count","medications_count","medications_count","medications_count","medications_count","medications_count","medications_count","medications_count","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","followup_visits_last_year","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","prev_readmissions","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","readmission_risk_score","label","label","label","label","label","label","label","label"],"shape":[64],"dtype":"object","order":"little"}],["feature_2",{"type":"ndarray","array":["age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label","age","comorbidities_count","length_of_stay","medications_count","followup_visits_last_year","prev_readmissions","readmission_risk_score","label"],"shape":[64],"dtype":"object","order":"little"}],["correlation",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/z2RIQyCQBiFzWQzVsxm9qJZM9msVTOZrNVuJovJOQubMIsiAzY1WDTL/cf7/wB3u73vvXvX65n5wHey7dx/olj2d+PiiPbTrhos5KDCSKZE7IavSVxjKotcdYJpOfb8jJXBLN+QX7+GoTtZiSDaf72gwc8zq1z9qCOHOSzn0Pknnd8VQwGdNCf9qCPHpHXDEpu1mULvM5O56J456UcdOTb3DRI/enR5Uu2F97M9JepHHTkDAVegP/tkL/YdrpqLftSRY/u76zuwT/ZCvs2Tqh915PwBs+LW+AACAAA="},"shape":[64],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1103","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1104"}}},"glyph":{"type":"object","name":"Rect","id":"p1099","attributes":{"x":{"type":"field","field":"feature_1"},"y":{"type":"field","field":"feature_2"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"correlation","transform":{"type":"object","name":"LinearColorMapper","id":"p1062","attributes":{"palette":["#2F3E46","#354F52","#52796F","#84A98C","#CAD2C5","#DDB892","#B08968","#7F5539","#5E3023","#3A1F16","#1B0F0A"],"low":-1,"high":1}}}}},"nonselection_glyph":{"type":"object","name":"Rect","id":"p1100","attributes":{"x":{"type":"field","field":"feature_1"},"y":{"type":"field","field":"feature_2"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"correlation","transform":{"id":"p1062"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Rect","id":"p1101","attributes":{"x":{"type":"field","field":"feature_1"},"y":{"type":"field","field":"feature_2"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"correlation","transform":{"id":"p1062"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1072","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1087"},{"type":"object","name":"WheelZoomTool","id":"p1088","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1089","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1090","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1096","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1095","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1097"},{"type":"object","name":"SaveTool","id":"p1098"},{"type":"object","name":"HoverTool","id":"p1105","attributes":{"renderers":"auto","tooltips":[["Feature 1","@feature_1"],["Feature 2","@feature_2"],["Correlation","@correlation"]],"sort_by":null}}]}},"toolbar_location":"above","left":[{"type":"object","name":"CategoricalAxis","id":"p1082","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1083"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1084"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1085"}}}],"right":[{"type":"object","name":"ColorBar","id":"p1106","attributes":{"location":[0,0],"title":"Correlation","major_label_policy":{"type":"object","name":"NoOverlap","id":"p1107"},"label_standoff":12,"color_mapper":{"id":"p1062"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1077","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1078"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1079"},"major_label_orientation":1.0,"major_label_policy":{"type":"object","name":"AllLabels","id":"p1080"}}}],"center":[{"type":"object","name":"Grid","id":"p1081","attributes":{"axis":{"id":"p1077"}}},{"type":"object","name":"Grid","id":"p1086","attributes":{"dimension":1,"axis":{"id":"p1082"}}}]}}]}};
+  const render_items = [{"docid":"39c33c22-4080-4900-bd7e-66527690590e","roots":{"p1063":"fd08630f-cd8e-453e-9694-197e18eb8d5c"},"root_ids":["p1063"]}];
   void root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
   }
   if (root.Bokeh !== undefined) {
@@ -9567,7 +9557,7 @@ var element = document.getElementById('b8cd06c6-6f50-42fc-a692-454abd070db3');
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Data manipulation</span>
@@ -9580,6 +9570,7 @@ var element = document.getElementById('b8cd06c6-6f50-42fc-a692-454abd070db3');
 
 <span class="c1"># Machine learning</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.model_selection</span><span class="w"> </span><span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.model_selection</span><span class="w"> </span><span class="kn">import</span> <span class="n">GridSearchCV</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.compose</span><span class="w"> </span><span class="kn">import</span> <span class="n">ColumnTransformer</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.pipeline</span><span class="w"> </span><span class="kn">import</span> <span class="n">Pipeline</span>
 
@@ -9644,7 +9635,7 @@ var element = document.getElementById('b8cd06c6-6f50-42fc-a692-454abd070db3');
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display the first five rows of the dataset</span>
@@ -9700,7 +9691,7 @@ memory usage: 1.0+ MB
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9996,7 +9987,7 @@ memory usage: 1.0+ MB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Check for missing values</span>
@@ -10011,7 +10002,7 @@ memory usage: 1.0+ MB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>patient_id                   0
 admission_date               0
@@ -10041,7 +10032,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display categorical columns</span>
@@ -10076,7 +10067,7 @@ Index(['patient_id', 'admission_date', 'season', 'gender', 'region',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display numerical columns</span>
@@ -10123,7 +10114,7 @@ Index(['age', 'comorbidities_count', 'length_of_stay', 'medications_count',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create the feature matrix by removing unnecessary columns</span>
@@ -10176,7 +10167,7 @@ Target vector (y): (8000,)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Split the data into training and testing sets</span>
@@ -10231,7 +10222,7 @@ Testing labels: (1600,)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Define the categorical columns</span>
@@ -10309,7 +10300,7 @@ Testing labels: (1600,)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create the machine learning pipeline</span>
@@ -10357,7 +10348,7 @@ Testing labels: (1600,)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate predictions using the testing dataset</span>
@@ -10375,7 +10366,7 @@ Testing labels: (1600,)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate evaluation metrics</span>
@@ -10443,7 +10434,7 @@ ROC-AUC  : 0.844
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create the confusion matrix</span>
@@ -10454,6 +10445,13 @@ ROC-AUC  : 0.844
 
 <span class="c1"># Add a title</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">"Logistic Regression Confusion Matrix"</span><span class="p">)</span>
+
+<span class="c1"># Save the plot to the project's images folder</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span>
+    <span class="s2">"../images/Logistic Regression Confusion Matrix.png"</span><span class="p">,</span>
+    <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
+    <span class="n">bbox_inches</span><span class="o">=</span><span class="s2">"tight"</span>
+<span class="p">)</span>
 
 <span class="c1"># Display the plot</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
@@ -10491,7 +10489,7 @@ ROC-AUC  : 0.844
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display the classification report</span>
@@ -10553,7 +10551,7 @@ weighted avg       0.80      0.82      0.80      1600
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display the ROC Curve</span>
@@ -10561,6 +10559,13 @@ weighted avg       0.80      0.82      0.80      1600
 
 <span class="c1"># Add a title</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">"Logistic Regression ROC Curve"</span><span class="p">)</span>
+
+<span class="c1"># Save the plot to the project's images folder</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span>
+    <span class="s2">"../images/Logistic Regression ROC Curve.png"</span><span class="p">,</span>
+    <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
+    <span class="n">bbox_inches</span><span class="o">=</span><span class="s2">"tight"</span>
+<span class="p">)</span>
 
 <span class="c1"># Display the plot</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
@@ -10602,12 +10607,220 @@ weighted avg       0.80      0.82      0.80      1600
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Part-III-%E2%80%93-Alternative-Machine-Learning-Models">Part III – Alternative Machine Learning Models<a class="anchor-link" href="#Part-III-%E2%80%93-Alternative-Machine-Learning-Models">¶</a></h1>
+<h2 id="2.14-Investigation-of-Potential-Data-Leakage">2.14 Investigation of Potential Data Leakage<a class="anchor-link" href="#2.14-Investigation-of-Potential-Data-Leakage">¶</a></h2><p>The initial Logistic Regression model included <code>readmission_risk_score</code>, a feature whose method of calculation is unknown. Because this variable may contain information that would not be available at the time a readmission prediction is made, its inclusion could potentially introduce data leakage.</p>
+<p>To investigate its impact, a second Logistic Regression model is developed using the same training and testing observations while excluding <code>readmission_risk_score</code>. All other modeling decisions are kept consistent with the original model so that changes in predictive performance can be attributed primarily to the removal of this feature.</p>
+<p>The performance of the two models will then be compared using accuracy, precision, recall, F1-score, and ROC-AUC.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a98da930-f6d3-4a6b-98fe-d57b75b7e045">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create new training and testing feature sets</span>
+<span class="c1"># without the readmission risk score</span>
+<span class="n">X_train_no_risk</span> <span class="o">=</span> <span class="n">X_train</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span>
+    <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"readmission_risk_score"</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">X_test_no_risk</span> <span class="o">=</span> <span class="n">X_test</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span>
+    <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"readmission_risk_score"</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="c1"># Display the new dimensions</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Training features without risk score:"</span><span class="p">,</span> <span class="n">X_train_no_risk</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Testing features without risk score:"</span><span class="p">,</span> <span class="n">X_test_no_risk</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a98da930-f6d3-4a6b-98fe-d57b75b7e045">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Training features without risk score: (6400, 13)
+Testing features without risk score: (1600, 13)
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ab9a7b38-3015-41c2-b23e-60b6e3596769">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Define numerical features without the readmission risk score</span>
+<span class="n">numerical_features_no_risk</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">"age"</span><span class="p">,</span>
+    <span class="s2">"comorbidities_count"</span><span class="p">,</span>
+    <span class="s2">"length_of_stay"</span><span class="p">,</span>
+    <span class="s2">"medications_count"</span><span class="p">,</span>
+    <span class="s2">"followup_visits_last_year"</span><span class="p">,</span>
+    <span class="s2">"prev_readmissions"</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=db867514-3841-499c-9fe7-a6b966ae29c2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create a preprocessing pipeline without the risk score</span>
+<span class="n">preprocessor_no_risk</span> <span class="o">=</span> <span class="n">ColumnTransformer</span><span class="p">(</span>
+    <span class="n">transformers</span><span class="o">=</span><span class="p">[</span>
+        <span class="p">(</span><span class="s2">"num"</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">(),</span> <span class="n">numerical_features_no_risk</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"cat"</span><span class="p">,</span> <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">handle_unknown</span><span class="o">=</span><span class="s2">"ignore"</span><span class="p">),</span> <span class="n">categorical_features</span><span class="p">)</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=51fb6883-c391-4ea8-84cc-a6d5abdad205">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create the Logistic Regression pipeline without the risk score</span>
+<span class="n">logistic_pipeline_no_risk</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span><span class="o">=</span><span class="p">[</span>
+    <span class="p">(</span><span class="s2">"preprocessor"</span><span class="p">,</span> <span class="n">preprocessor_no_risk</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">"classifier"</span><span class="p">,</span> <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">))</span>
+<span class="p">])</span>
+
+<span class="c1"># Train the model</span>
+<span class="n">logistic_pipeline_no_risk</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_no_risk</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Logistic Regression model without risk score trained successfully! YIPEEE"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Logistic Regression model without risk score trained successfully! YIPEEE
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=dbf52dd4-3f91-4357-aa27-9fef3cff8ffd">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate predictions using the model without the risk score</span>
+<span class="n">y_pred_no_risk</span> <span class="o">=</span> <span class="n">logistic_pipeline_no_risk</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_no_risk</span><span class="p">)</span>
+
+<span class="c1"># Generate predicted probabilities</span>
+<span class="n">y_prob_no_risk</span> <span class="o">=</span> <span class="n">logistic_pipeline_no_risk</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span>
+    <span class="n">X_test_no_risk</span>
+<span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=90eb68ba-3927-47be-8b86-15741d0d7a07">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate evaluation metrics for the model without the risk score</span>
+<span class="n">accuracy_no_risk</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_no_risk</span><span class="p">)</span>
+<span class="n">precision_no_risk</span> <span class="o">=</span> <span class="n">precision_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_no_risk</span><span class="p">)</span>
+<span class="n">recall_no_risk</span> <span class="o">=</span> <span class="n">recall_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_no_risk</span><span class="p">)</span>
+<span class="n">f1_no_risk</span> <span class="o">=</span> <span class="n">f1_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_no_risk</span><span class="p">)</span>
+<span class="n">roc_auc_no_risk</span> <span class="o">=</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_prob_no_risk</span><span class="p">)</span>
+
+<span class="c1"># Display the evaluation metrics</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Accuracy : </span><span class="si">{</span><span class="n">accuracy_no_risk</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Precision: </span><span class="si">{</span><span class="n">precision_no_risk</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Recall   : </span><span class="si">{</span><span class="n">recall_no_risk</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"F1 Score : </span><span class="si">{</span><span class="n">f1_no_risk</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"ROC-AUC  : </span><span class="si">{</span><span class="n">roc_auc_no_risk</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Accuracy : 0.814
+Precision: 0.832
+Recall   : 0.951
+F1 Score : 0.888
+ROC-AUC  : 0.839
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9d7828f0-2736-48d4-a570-619f815d9d99">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Note:</strong></p>
+<p>Removing <code>readmission_risk_score</code> resulted in very little change in the overall performance of the Logistic Regression model. Accuracy decreased only slightly from 81.6% to 81.4%, while ROC-AUC decreased from 0.844 to 0.839. Precision also decreased slightly; however, recall improved from 93.0% to 95.1%, and the F1-score increased slightly from 0.886 to 0.888.</p>
+<p>These results suggest that <code>readmission_risk_score</code> is not solely responsible for the model's predictive performance and that the remaining demographic and clinical variables contain substantial predictive information. Because the calculation and origin of <code>readmission_risk_score</code> remain unknown, the feature will be excluded from subsequent models. This provides a more conservative feature set while maintaining comparable predictive performance.</p>
+<p>Although this comparison does not establish whether <code>readmission_risk_score</code> contains data leakage, it demonstrates that removing the variable does not materially reduce the performance of the Logistic Regression model.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=69c2c198-bc98-43fd-b702-ab4fe701fd4e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Part-III---Alternative-Machine-Learning-Models">Part III - Alternative Machine Learning Models<a class="anchor-link" href="#Part-III---Alternative-Machine-Learning-Models">¶</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=91220c19-4f4a-4e41-b3a3-ed440b7286d3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10617,7 +10830,556 @@ weighted avg       0.80      0.82      0.80      1600
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ab9a7b38-3015-41c2-b23e-60b6e3596769">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=289cb8d8-efee-4884-90af-f96689a40fc0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Decision Tree classification is a supervised machine learning technique that predicts an outcome by repeatedly dividing the data based on the values of predictor variables. Each division creates branches that separate observations into increasingly similar groups until a prediction can be made.</p>
+<p>Unlike Logistic Regression, which estimates the probability of an outcome using a mathematical relationship between the predictor variables and the target, a Decision Tree learns a sequence of decision rules directly from the data.</p>
+<p>The Decision Tree model will be trained using the final feature set selected during the potential data leakage investigation, which excludes <code>readmission_risk_score</code>. Its performance will be evaluated using the same metrics as Logistic Regression to allow a consistent comparison between the models.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c8d53804-4238-488b-bca3-29514379f24c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.1-Build-the-Decision-Tree-Pipeline">3.1 Build the Decision Tree Pipeline<a class="anchor-link" href="#3.1-Build-the-Decision-Tree-Pipeline">¶</a></h2><p>A preprocessing and modeling pipeline is created for the Decision Tree classifier using the final feature set that excludes <code>readmission_risk_score</code>.</p>
+<p>Unlike Logistic Regression, Decision Trees do not require numerical features to be standardized because the algorithm makes predictions by splitting observations based on feature values rather than comparing the relative magnitude of model coefficients. Categorical variables must still be converted into numerical representations using one-hot encoding before they can be processed by the model.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=fbf965c2-0c94-49ae-b79d-62cf2f0e577e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create the Decision Tree preprocessor</span>
+<span class="n">decision_tree_preprocessor</span> <span class="o">=</span> <span class="n">ColumnTransformer</span><span class="p">(</span>
+    <span class="n">transformers</span><span class="o">=</span><span class="p">[</span>
+        <span class="p">(</span><span class="s2">"cat"</span><span class="p">,</span> <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">handle_unknown</span><span class="o">=</span><span class="s2">"ignore"</span><span class="p">),</span> <span class="n">categorical_features</span><span class="p">)</span>
+    <span class="p">],</span>
+    <span class="n">remainder</span><span class="o">=</span><span class="s2">"passthrough"</span>
+<span class="p">)</span>
+
+<span class="c1"># Create the Decision Tree pipeline</span>
+<span class="n">decision_tree_pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span><span class="o">=</span><span class="p">[</span>
+    <span class="p">(</span><span class="s2">"preprocessor"</span><span class="p">,</span> <span class="n">decision_tree_preprocessor</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">"classifier"</span><span class="p">,</span> <span class="n">DecisionTreeClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">))</span>
+<span class="p">])</span>
+
+<span class="c1"># Train the Decision Tree model</span>
+<span class="n">decision_tree_pipeline</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_no_risk</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Decision Tree model trained successfully! YAY"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Decision Tree model trained successfully! YAY
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a712acd4-14e8-4f1a-8bff-5317c755bacb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.2-Generate-Predictions-and-Evaluate-the-Decision-Tree">3.2 Generate Predictions and Evaluate the Decision Tree<a class="anchor-link" href="#3.2-Generate-Predictions-and-Evaluate-the-Decision-Tree">¶</a></h2><p>After training the Decision Tree classifier, predictions are generated using the testing dataset. The model is evaluated using the same performance metrics applied to Logistic Regression, including accuracy, precision, recall, F1-score, and ROC-AUC.</p>
+<p>Using the same testing observations and evaluation metrics allows the performance of the two algorithms to be compared consistently.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d9d395da-91f5-42a1-a634-960a96098a8f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate predictions using the Decision Tree model</span>
+<span class="n">y_pred_tree</span> <span class="o">=</span> <span class="n">decision_tree_pipeline</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_no_risk</span><span class="p">)</span>
+
+<span class="c1"># Generate predicted probabilities for the positive class</span>
+<span class="n">y_prob_tree</span> <span class="o">=</span> <span class="n">decision_tree_pipeline</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span>
+    <span class="n">X_test_no_risk</span>
+<span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span>
+
+
+<span class="c1"># Calculate evaluation metrics</span>
+<span class="n">accuracy_tree</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_tree</span><span class="p">)</span>
+<span class="n">precision_tree</span> <span class="o">=</span> <span class="n">precision_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_tree</span><span class="p">)</span>
+<span class="n">recall_tree</span> <span class="o">=</span> <span class="n">recall_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_tree</span><span class="p">)</span>
+<span class="n">f1_tree</span> <span class="o">=</span> <span class="n">f1_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_tree</span><span class="p">)</span>
+<span class="n">roc_auc_tree</span> <span class="o">=</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_prob_tree</span><span class="p">)</span>
+
+
+<span class="c1"># Display the evaluation metrics</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Accuracy : </span><span class="si">{</span><span class="n">accuracy_tree</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Precision: </span><span class="si">{</span><span class="n">precision_tree</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Recall   : </span><span class="si">{</span><span class="n">recall_tree</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"F1 Score : </span><span class="si">{</span><span class="n">f1_tree</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"ROC-AUC  : </span><span class="si">{</span><span class="n">roc_auc_tree</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Accuracy : 0.738
+Precision: 0.838
+Recall   : 0.820
+F1 Score : 0.829
+ROC-AUC  : 0.640
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=96d83d15-3321-45dc-9235-9d3f9db76683">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="3.3-Check-for-Decision-Tree-Overfitting">3.3 Check for Decision Tree Overfitting<a class="anchor-link" href="#3.3-Check-for-Decision-Tree-Overfitting">¶</a></h3><p>Decision Trees can become overly complex when allowed to grow without restrictions. This may cause the model to fit the training data extremely well while performing substantially worse on previously unseen observations, a problem known as overfitting.</p>
+<p>To investigate whether the initial Decision Tree exhibits this behavior, its accuracy on the training dataset is compared with its accuracy on the testing dataset.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d34236fe-3eec-4b71-88e7-c9d84744531e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate predictions for the training dataset</span>
+<span class="n">y_train_pred_tree</span> <span class="o">=</span> <span class="n">decision_tree_pipeline</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span>
+    <span class="n">X_train_no_risk</span>
+<span class="p">)</span>
+
+<span class="c1"># Calculate training accuracy</span>
+<span class="n">tree_train_accuracy</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span>
+    <span class="n">y_train</span><span class="p">,</span>
+    <span class="n">y_train_pred_tree</span>
+<span class="p">)</span>
+
+<span class="c1"># Calculate testing accuracy</span>
+<span class="n">tree_test_accuracy</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span>
+    <span class="n">y_test</span><span class="p">,</span>
+    <span class="n">y_pred_tree</span>
+<span class="p">)</span>
+
+<span class="c1"># Display the results</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Training Accuracy: </span><span class="si">{</span><span class="n">tree_train_accuracy</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Testing Accuracy : </span><span class="si">{</span><span class="n">tree_test_accuracy</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Training Accuracy: 1.000
+Testing Accuracy : 0.738
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a2564397-b7b1-44d4-96ef-eb2040564cee">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Note:</strong></p>
+<p>The initial Decision Tree achieved 100% accuracy on the training dataset but only 73.8% accuracy on the testing dataset. The substantial difference between training and testing performance provides strong evidence that the unrestricted Decision Tree is overfitting the training data.</p>
+<p>The model has learned the training observations extremely well but does not generalize as effectively to previously unseen patients. Therefore, the complexity of the Decision Tree will be controlled through hyperparameter tuning to reduce overfitting and improve generalization.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a41d702b-f19a-4130-903b-fa55a156d355">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.4-Decision-Tree-Hyperparameter-Tuning">3.4 Decision Tree Hyperparameter Tuning<a class="anchor-link" href="#3.4-Decision-Tree-Hyperparameter-Tuning">¶</a></h2><p>The initial Decision Tree demonstrated substantial overfitting, achieving 100% accuracy on the training data but only 73.8% accuracy on the testing data.</p>
+<p>To reduce overfitting and improve the model's ability to generalize to unseen observations, several hyperparameters controlling the complexity of the tree will be evaluated. These include <code>max_depth</code>, <code>min_samples_split</code>, and <code>min_samples_leaf</code>.</p>
+<p>Hyperparameter tuning will be performed using cross-validation on the training data. The testing dataset will remain separate and will only be used to evaluate the final selected model.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b3924057-d347-4002-bb7e-dbc9bf38de1c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Define the hyperparameter values to test</span>
+<span class="n">param_grid</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"classifier__max_depth"</span><span class="p">:</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span>
+    <span class="s2">"classifier__min_samples_split"</span><span class="p">:</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">50</span><span class="p">],</span>
+    <span class="s2">"classifier__min_samples_leaf"</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="c1"># Create the GridSearchCV object</span>
+<span class="n">tree_grid_search</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span>
+    <span class="n">estimator</span><span class="o">=</span><span class="n">decision_tree_pipeline</span><span class="p">,</span>
+    <span class="n">param_grid</span><span class="o">=</span><span class="n">param_grid</span><span class="p">,</span>
+    <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">scoring</span><span class="o">=</span><span class="s2">"roc_auc"</span><span class="p">,</span>
+    <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span>
+<span class="p">)</span>
+
+<span class="c1"># Train the different Decision Tree combinations</span>
+<span class="n">tree_grid_search</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_no_risk</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+
+<span class="c1"># Display the best hyperparameter combination</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Best Parameters:"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">tree_grid_search</span><span class="o">.</span><span class="n">best_params_</span><span class="p">)</span>
+
+<span class="c1"># Display the best cross-validation ROC-AUC score</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Best Cross-Validation ROC-AUC: </span><span class="si">{</span><span class="n">tree_grid_search</span><span class="o">.</span><span class="n">best_score_</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Best Parameters:
+{'classifier__max_depth': 5, 'classifier__min_samples_leaf': 20, 'classifier__min_samples_split': 2}
+
+Best Cross-Validation ROC-AUC: 0.806
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c90ba8c5-681b-40bb-8378-8746bd0a6279">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.5-Evaluate-the-Tuned-Decision-Tree">3.5 Evaluate the Tuned Decision Tree<a class="anchor-link" href="#3.5-Evaluate-the-Tuned-Decision-Tree">¶</a></h2><p>Grid search with five-fold cross-validation identified the best-performing Decision Tree hyperparameter combination based on ROC-AUC. The selected model limits the maximum tree depth and requires a minimum number of observations within each leaf, which helps control model complexity and reduce overfitting.</p>
+<p>The tuned model is now evaluated using the previously held-out testing dataset to determine whether controlling tree complexity improved its ability to generalize to unseen observations.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f3c8cd75-6788-469a-a6ce-e6890462b804">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Retrieve the best Decision Tree model found by GridSearchCV</span>
+<span class="n">best_tree</span> <span class="o">=</span> <span class="n">tree_grid_search</span><span class="o">.</span><span class="n">best_estimator_</span>
+
+
+<span class="c1"># Generate predictions for the testing dataset</span>
+<span class="n">y_pred_tree_tuned</span> <span class="o">=</span> <span class="n">best_tree</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_no_risk</span><span class="p">)</span>
+
+
+<span class="c1"># Generate predicted probabilities for the positive class</span>
+<span class="n">y_prob_tree_tuned</span> <span class="o">=</span> <span class="n">best_tree</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span>
+    <span class="n">X_test_no_risk</span>
+<span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span>
+
+
+<span class="c1"># Calculate evaluation metrics</span>
+<span class="n">accuracy_tree_tuned</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span>
+    <span class="n">y_test</span><span class="p">,</span>
+    <span class="n">y_pred_tree_tuned</span>
+<span class="p">)</span>
+
+<span class="n">precision_tree_tuned</span> <span class="o">=</span> <span class="n">precision_score</span><span class="p">(</span>
+    <span class="n">y_test</span><span class="p">,</span>
+    <span class="n">y_pred_tree_tuned</span>
+<span class="p">)</span>
+
+<span class="n">recall_tree_tuned</span> <span class="o">=</span> <span class="n">recall_score</span><span class="p">(</span>
+    <span class="n">y_test</span><span class="p">,</span>
+    <span class="n">y_pred_tree_tuned</span>
+<span class="p">)</span>
+
+<span class="n">f1_tree_tuned</span> <span class="o">=</span> <span class="n">f1_score</span><span class="p">(</span>
+    <span class="n">y_test</span><span class="p">,</span>
+    <span class="n">y_pred_tree_tuned</span>
+<span class="p">)</span>
+
+<span class="n">roc_auc_tree_tuned</span> <span class="o">=</span> <span class="n">roc_auc_score</span><span class="p">(</span>
+    <span class="n">y_test</span><span class="p">,</span>
+    <span class="n">y_prob_tree_tuned</span>
+<span class="p">)</span>
+
+
+<span class="c1"># Display the evaluation metrics</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Accuracy : </span><span class="si">{</span><span class="n">accuracy_tree_tuned</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Precision: </span><span class="si">{</span><span class="n">precision_tree_tuned</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Recall   : </span><span class="si">{</span><span class="n">recall_tree_tuned</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"F1 Score : </span><span class="si">{</span><span class="n">f1_tree_tuned</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"ROC-AUC  : </span><span class="si">{</span><span class="n">roc_auc_tree_tuned</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Accuracy : 0.812
+Precision: 0.847
+Recall   : 0.924
+F1 Score : 0.884
+ROC-AUC  : 0.815
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ba2368c9-54e9-410d-8f71-aaf9cce3f8d3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate predictions for the training dataset</span>
+<span class="c1"># using the tuned Decision Tree</span>
+<span class="n">y_train_pred_tree_tuned</span> <span class="o">=</span> <span class="n">best_tree</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span>
+    <span class="n">X_train_no_risk</span>
+<span class="p">)</span>
+
+<span class="c1"># Calculate the tuned model's training accuracy</span>
+<span class="n">tree_train_accuracy_tuned</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span>
+    <span class="n">y_train</span><span class="p">,</span>
+    <span class="n">y_train_pred_tree_tuned</span>
+<span class="p">)</span>
+
+<span class="c1"># Display training and testing accuracy</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Tuned Training Accuracy: </span><span class="si">{</span><span class="n">tree_train_accuracy_tuned</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Tuned Testing Accuracy : </span><span class="si">{</span><span class="n">accuracy_tree_tuned</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Tuned Training Accuracy: 0.811
+Tuned Testing Accuracy : 0.812
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3bac198d-c03c-4fce-b8e0-96de7c2c5a01">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Note:</strong></p>
+<p>Hyperparameter tuning substantially reduced the overfitting observed in the initial Decision Tree model. Before tuning, the model achieved 100% training accuracy but only 73.8% testing accuracy, indicating that the unrestricted tree had memorized patterns specific to the training data that did not generalize effectively to unseen observations.</p>
+<p>After controlling model complexity through cross-validated hyperparameter tuning, training accuracy decreased to 81.1% while testing accuracy increased to 81.2%. The nearly identical training and testing performance indicates that the tuned model generalizes much more effectively to unseen data.</p>
+<p>The tuned Decision Tree also improved across the primary evaluation metrics, increasing ROC-AUC from 0.640 to 0.815 and recall from 0.820 to 0.924. These results demonstrate that reducing model complexity significantly improved the Decision Tree's predictive performance and reduced overfitting.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=80cbe980-44d0-4e1c-b4a9-489c0d8b32d9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.6-Tuned-Decision-Tree-Confusion-Matrix">3.6 Tuned Decision Tree Confusion Matrix<a class="anchor-link" href="#3.6-Tuned-Decision-Tree-Confusion-Matrix">¶</a></h2><p>The confusion matrix provides a detailed view of the tuned Decision Tree's predictions by comparing the predicted readmission outcomes with the actual outcomes in the testing dataset.</p>
+<p>This allows the model's true positives, true negatives, false positives, and false negatives to be examined after controlling for the overfitting observed in the initial Decision Tree.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3abb4145-dab1-4a4d-9ea4-c9676adda90b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create the confusion matrix for the tuned Decision Tree</span>
+<span class="n">cm_tree_tuned</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span>
+    <span class="n">y_test</span><span class="p">,</span>
+    <span class="n">y_pred_tree_tuned</span>
+<span class="p">)</span>
+
+<span class="c1"># Display the confusion matrix</span>
+<span class="n">ConfusionMatrixDisplay</span><span class="p">(</span>
+    <span class="n">confusion_matrix</span><span class="o">=</span><span class="n">cm_tree_tuned</span>
+<span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">cmap</span><span class="o">=</span><span class="s2">"Blues"</span><span class="p">)</span>
+
+<span class="c1"># Add a title</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">"Tuned Decision Tree Confusion Matrix"</span><span class="p">)</span>
+
+<span class="c1"># Save the plot to the project's images folder</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span>
+    <span class="s2">"../images/Tuned Decision Tree Confusion Matrix.png"</span><span class="p">,</span>
+    <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
+    <span class="n">bbox_inches</span><span class="o">=</span><span class="s2">"tight"</span>
+<span class="p">)</span>
+
+<span class="c1"># Display the plot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
+<img alt="No description has been provided for this image" class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgQAAAHFCAYAAACNXuEaAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjEwLjcsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvTLEjVAAAAAlwSFlzAAAPYQAAD2EBqD+naQAASBlJREFUeJzt3Xl4TGf7B/DvZJsskiGJZISIIPbYYgstUcQa1KuqVKlQu6YoVa2tlQhtpCi1R+3eFlVKxdqqPbXzUoREiVgiicie5/eH5vw6EiOTmcnInO+n17muzjnPOXOfk8jccz/Pc45CCCFAREREsmZh6gCIiIjI9JgQEBERERMCIiIiYkJAREREYEJAREREYEJAREREYEJAREREYEJAREREYEJAREREYEJQLAqFokjLwYMHTR2qhunTp0OhULy03aBBgzTOw8HBAVWqVEH37t2xatUqZGZmGjXOqKgoKBQK3Lx5U6f9qlSpgkGDBhklJm3vWZTfhaioqBKNqzA3btzA6NGjUaNGDdjZ2cHe3h5169bFZ599hr///tuo733z5k107doVzs7OUCgUCAkJMfh7mOLnDwAHDx586c/5jTfegEKhQJUqVYr1HuvXr0dkZKRO+9y8efOV+d2j0sHK1AGURkePHtV4/cUXX+DAgQPYv3+/xvo6deqUZFgGZWdnJ51Peno64uPjsWvXLgwdOhRff/01du/ejUqVKhnlvbt27YqjR4+iQoUKOu23detWODk5GSUmbe/57wRp+fLlWLFiBXbv3g2VSiWtr1atWonG9bwdO3agb9++cHV1xejRo9GoUSMoFAqcP38eK1euxM6dO3H69Gmjvf9HH32E48ePY+XKlVCr1Tr/bIvCFD//f3N0dMSKFSsKJCWxsbE4ePCgXrGtX78eFy5c0CmRqlChAo4ePWry3z0qRQTpbeDAgcLBwcHUYbzUtGnTRFF+5NrO59dffxXW1taiefPmhg7PLORf4/v372ttl5aWVkIRCXHjxg3h4OAgGjVqJB4/flxge15envjxxx+NGkP16tVF586djfoepnLgwAEBQAwZMkQAEFevXtXY/tlnn4lKlSqJzp07Cy8vr2K9R9euXYu8b05OjsjIyCjW+5C8scvASF5UvgwICEBAQID0Or/cuGHDBkyZMgUeHh5wcnJC+/btceXKlQL77927F+3atYOTkxPs7e3RqlUr7Nu3r0C7nTt3omHDhlAqlfD29sZXX31lkPMKDAzE0KFDcfz4cfz2228a2zZt2gR/f384ODigTJky6NixY6HfOo8fP46goCC4uLjA1tYW1apV0/jmU1iXwenTp9GtWze4ublBqVTCw8MDXbt2xe3bt6U2hV3zuLg4vPvuu9J+tWvXxtdff428vDypTX5p9auvvkJERAS8vb1RpkwZ+Pv749ixY/pdMDzrgilTpgzOnz+PwMBAODo6ol27dgCArKwsfPnll6hVqxaUSiXKly+P999/H/fv3y9wnKJe3+dFREQgLS0NixYt0qha5FMoFOjVq5fGupUrV6JBgwawtbWFs7Mz3nzzTVy+fLnQ87p27Rq6dOmCMmXKwNPTE+PHj5eqJvm/39euXcOuXbuk0vrNmzdf2DWUv8+/u9xKw8+/Q4cO8PT0xMqVK6V1eXl5WL16NQYOHAgLi4J/br/99lu0bt0abm5ucHBwgK+vL+bMmYPs7GypTUBAAHbu3Ilbt25pdEP9O/Y5c+bgyy+/hLe3N5RKJQ4cOFCgyyAjIwONGjVC9erVkZycLB0/ISEBarUaAQEByM3NLfL5kvlhQvCK+PTTT3Hr1i0sX74cS5cuxV9//YWgoCCNf6Br165FYGAgnJycsHr1amzevBnOzs7o2LGjRlKwb98+9OjRA46Ojti4cSPmzp2LzZs3Y9WqVQaJtXv37gCgkRCEhobinXfeQZ06dbB582asWbMGqampeP3113Hp0iWp3a+//orXX38dcXFxiIiIwK5du/DZZ5/h3r17L3y/tLQ0dOjQAffu3cO3336L6OhoREZGonLlykhNTX3hfvfv30fLli2xZ88efPHFF9i+fTvat2+PCRMmYPTo0QXa//vY69atQ1paGrp06aLxx7O4srKy0L17d7zxxhv46aefMGPGDOTl5aFHjx6YPXs2+vXrh507d2L27NmIjo5GQEAA0tPTpf2Len0Ls2fPHri7u6NFixZFijUsLAzBwcGoW7cutmzZgm+++Qbnzp2Dv78//vrrL4222dnZ6N69O9q1a4effvoJgwcPxrx58xAeHg4AaNy4MY4ePQq1Wo1WrVrh6NGjOncHlZafv4WFBQYNGoTvv/9e+ne7Z88e3L59G++//36h+1y/fh39+vXDmjVrsGPHDgQHB2Pu3LkYNmyY1GbRokVo1aoV1Gq1dP2e77acP38+9u/fj6+++gq7du1CrVq1CryXra0tNm/ejMTERAwePBjAs4Slf//+EEJgw4YNsLS0LNK5kpkydYnCHBRWYvfy8hIDBw4s0LZNmzaiTZs20uv8cmOXLl002m3evFkAEEePHhVCPCsxOzs7i6CgII12ubm5okGDBqJZs2bSuubNmwsPDw+Rnp4urUtJSRHOzs56dxkIIcTly5cFADFixAghhBBxcXHCyspKjBkzRqNdamqqUKvVok+fPtK6atWqiWrVqmnE9rxVq1YJACI2NlYIIcSpU6cEALFt2zatcT9/zT/55BMBQBw/flyj3YgRI4RCoRBXrlwRQggRGxsrAAhfX1+Rk5MjtTtx4oQAIDZs2KD1ff+tsC6DgQMHCgBi5cqVGm03bNggABQo1588eVIAEIsWLRJC6HZ9C2NraytatGhRpPiTkpKEnZ1dgd/HuLg4oVQqRb9+/Qqc1+bNmzXadunSRdSsWVNjnZeXl+jatavGuud/zvny/00cOHBACPHq//zz4/3vf/8rbty4IRQKhdixY4cQQoi33npLBAQECCFeXvbPzc0V2dnZ4vvvvxeWlpbi0aNH0rYX7Zsfe7Vq1URWVlah21atWqWxftOmTQKAiIyMFFOnThUWFhZiz549Ws+R5IEVgldE/rfufPXr1wcA3Lp1CwBw5MgRPHr0CAMHDkROTo605OXloVOnTjh58iTS0tKQlpaGkydPolevXrC1tZWO5+joiKCgIIPEKoTQeP3rr78iJycH7733nkZstra2aNOmjVT6vXr1Kq5fv47g4GCN2F6mevXqKFeuHCZNmoTvvvvupd+I8+3fvx916tRBs2bNNNYPGjQIQogCg0C7du2q8Q3p+Z+Bvv7zn/9ovN6xYwfKli2LoKAgjevWsGFDqNVq6boV9foawtGjR5Genl6g9O7p6Yk33nijQPeUQqEo8HtVv359g10zoHT9/L29vREQEICVK1fi4cOHUtXkRU6fPo3u3bvDxcUFlpaWsLa2xnvvvYfc3FxcvXq1yO/bvXt3WFtbF6ltnz59MGLECHz88cf48ssv8emnn6JDhw5Ffi8yX0wIXhEuLi4ar5VKJQBIZeP8knrv3r1hbW2tsYSHh0MIgUePHiEpKQl5eXlQq9UF3qOwdcWR/wfSw8NDI7amTZsWiG3Tpk148OABAEj94rrOTlCpVDh06BAaNmyITz/9FHXr1oWHhwemTZum0df6vIcPHxZams6P++HDhxrrX/Yz0Ie9vX2BUeb37t3D48ePYWNjU+C6JSQkSNetqNf3RSpXrozY2NgixZl/TV503Z6/Zvb29gWSO6VSiYyMjCK9X1GUtp9/cHAwfv75Z0RERMDOzg69e/cutF1cXBxef/11/P333/jmm2/w+++/4+TJk/j22291fl9dZ20MHjwY2dnZsLKywtixY3Xal8wXpx0aia2tbaHz9R88eABXV1edj5e/z4IFC17YF+zu7o7s7GwoFAokJCQU2F7YuuLYvn07AEiDI/Nj++GHH+Dl5fXC/cqXLw8AGgPBisrX1xcbN26EEALnzp1DVFQUZs6cCTs7O3zyySeF7uPi4oK7d+8WWH/nzh2NuEtCYfd/cHV1hYuLC3bv3l3oPo6OjlI74OXX90U6duyIBQsW4NixYy8dR5D/ofii62bIa5afSDz/76SwBKc0/fx79eqFUaNGYfbs2Rg6dCjs7OwKbbdt2zakpaVhy5YtGj/XM2fO6PyeRbm/SL60tDQMGDAANWrUwL179zBkyBD89NNPOr8nmR9WCIykSpUqOHfunMa6q1evFjpzoChatWqFsmXL4tKlS2jSpEmhi42NDRwcHNCsWTNs2bJF41taamoqfv75Z73OCQCio6OxfPlytGzZEq+99hqAZx84VlZWuH79+gtjA4AaNWqgWrVqWLlyZbFvbqRQKNCgQQPMmzcPZcuWxZ9//vnCtu3atcOlS5cKtPn++++hUCjQtm3bYsVgKN26dcPDhw+Rm5tb6DWrWbMmgKJf3xf56KOP4ODggJEjRxY6QE4Iga1btwIA/P39YWdnh7Vr12q0uX37Nvbv3y/NjjCE/Jv0PP/vJD/hLExp+Pnb2dlh6tSpCAoKwogRI17YLv9DPL8SATz7WSxbtqxAW6VSaZBKFQAMHz4ccXFx2LJlC1asWIHt27dj3rx5Bjk2lW6sEBjJgAED8O6772LkyJH4z3/+g1u3bmHOnDnSt2RdlSlTBgsWLMDAgQPx6NEj9O7dG25ubrh//z7Onj2L+/fvY/HixQCe3SipU6dO6NChA8aPH4/c3FyEh4fDwcEBjx49KtL75eXlSVOuMjMzERcXh127dmHz5s2oXbs2Nm/eLLWtUqUKZs6ciSlTpuDGjRvo1KkTypUrh3v37uHEiRNwcHDAjBkzADwbyR0UFIQWLVrgo48+QuXKlREXF4dff/0V69atKzSWHTt2YNGiRejZsyeqVq0KIQS2bNmCx48fa+37/Oijj/D999+ja9eumDlzJry8vLBz504sWrQII0aMQI0aNYp0LYylb9++WLduHbp06YIPP/wQzZo1g7W1NW7fvo0DBw6gR48eePPNN3W6voXx9vbGxo0b8fbbb6Nhw4bSjYkA4NKlS1i5ciWEEHjzzTdRtmxZfP755/j000/x3nvv4Z133sHDhw8xY8YM2NraYtq0aQY7/6ZNm6JmzZqYMGECcnJyUK5cOWzduhWHDx/WaFcaf/7jxo3DuHHjtLbp0KEDbGxs8M4772DixInIyMjA4sWLkZSUVKCtr68vtmzZgsWLF8PPzw8WFhYvTQQLs3z5cqxduxarVq1C3bp1UbduXYwePRqTJk1Cq1atCoy3IJkx0WBGs1LYqPy8vDwxZ84cUbVqVWFrayuaNGki9u/f/8JZBv/973819n/RCOFDhw6Jrl27CmdnZ2FtbS0qVqwounbtWmD/7du3i/r16wsbGxtRuXJlMXv2bJ1uTARAWuzs7ETlypVFUFCQWLlypcjMzCx0v23btom2bdsKJycnoVQqhZeXl+jdu7fYu3evRrujR4+Kzp07C5VKJZRKpahWrZr46KOPpO3Pjz7/3//+J9555x1RrVo1YWdnJ1QqlWjWrJmIiorSOG5hMztu3bol+vXrJ1xcXIS1tbWoWbOmmDt3rsjNzS1wrefOnVvgnACIadOmvfSa5XvRLIMXzdrIzs4WX331lWjQoIGwtbUVZcqUEbVq1RLDhg0Tf/31l0bbol7fF7l+/boYOXKkqF69ulAqlcLOzk7UqVNHjBs3rsBI/+XLl0u/PyqVSvTo0UNcvHhRo82Lzquw37PCZhkIIcTVq1dFYGCgcHJyEuXLlxdjxowRO3fu1Jhl8Kr//F/0b/h5hc0U+Pnnn6WffcWKFcXHH38sdu3apXH+Qgjx6NEj0bt3b1G2bFmhUCik66st9uf/hpw7d07Y2dkVuEYZGRnCz89PVKlSRSQlJWk9BzJvCiGeGzJOREREssMxBERERMSEgIiIiJgQEBEREZgQEBEREZgQEBEREZgQEBEREUr5jYny8vJw584dODo66nTrTiIiejUIIZCamgoPDw9YWBjvO2pGRgaysrL0Po6NjY1OD2crTUp1QnDnzh14enqaOgwiItJTfHy8zg8+K6qMjAzYOboAOU/1PpZarUZsbKxZJgWlOiHIf/jL2f/FwtHR6SWtiUqnp1m5pg6ByGiepKaiRf1q0t9zY8jKygJynkJZZyBgaVP8A+VmIeHSamRlZTEheNXkdxM4OjrB0YkJAZknSyYEJAMl0u1rZQuFHgmBUJj3sLtSnRAQEREVmQKAPomHmQ9VY0JARETyoLB4tuizvxkz77MjIiKiImGFgIiI5EGh0LPLwLz7DJgQEBGRPLDLQCvzPjsiIiIqElYIiIhIHthloBUTAiIikgk9uwzMvKhu3mdHRERERcIKARERyQO7DLRiQkBERPLAWQZamffZERERUZGwQkBERPLALgOtmBAQEZE8sMtAKyYEREQkD6wQaGXe6Q4REREVCSsEREQkD+wy0IoJARERyYNCoWdCwC4DIiIiMnOsEBARkTxYKJ4t+uxvxpgQEBGRPHAMgVbmfXZERERUJKwQEBGRPPA+BFoxISAiInlgl4FW5n12REREVCSsEBARkTywy0ArJgRERCQP7DLQigkBERHJAysEWpl3ukNERERFwgoBERHJA7sMtGJCQERE8sAuA63MO90hIiKiImGFgIiIZELPLgMz/w7NhICIiOSBXQZamXe6Q0REREXCCgEREcmDQqHnLAPzrhAwISAiInngtEOtzPvsiIiIqEhYISAiInngoEKtmBAQEZE8sMtAKyYEREQkD6wQaGXe6Q4REREVCSsEREQkD+wy0Mq8z46IiChffpeBPosOfvvtNwQFBcHDwwMKhQLbtm3T2C6EwPTp0+Hh4QE7OzsEBATg4sWLGm0yMzMxZswYuLq6wsHBAd27d8ft27c12iQlJWHAgAFQqVRQqVQYMGAAHj9+rPPlYUJARERkBGlpaWjQoAEWLlxY6PY5c+YgIiICCxcuxMmTJ6FWq9GhQwekpqZKbUJCQrB161Zs3LgRhw8fxpMnT9CtWzfk5uZKbfr164czZ85g9+7d2L17N86cOYMBAwboHC+7DIiISBYUCgUUJTiosHPnzujcuXOh24QQiIyMxJQpU9CrVy8AwOrVq+Hu7o7169dj2LBhSE5OxooVK7BmzRq0b98eALB27Vp4enpi79696NixIy5fvozdu3fj2LFjaN68OQBg2bJl8Pf3x5UrV1CzZs0ix8sKARERyUJ+QqDPYiixsbFISEhAYGCgtE6pVKJNmzY4cuQIACAmJgbZ2dkabTw8PFCvXj2pzdGjR6FSqaRkAABatGgBlUoltSkqVgiIiIh0kJKSovFaqVRCqVTqdIyEhAQAgLu7u8Z6d3d33Lp1S2pjY2ODcuXKFWiTv39CQgLc3NwKHN/NzU1qU1SsEBARkTwoDLAA8PT0lAbwqVQqhIWFFT+k56oOQoiXViKeb1NY+6Ic53msEBARkSwYagxBfHw8nJycpNW6VgcAQK1WA3j2Db9ChQrS+sTERKlqoFarkZWVhaSkJI0qQWJiIlq2bCm1uXfvXoHj379/v0D14WVYISAiItKBk5OTxlKchMDb2xtqtRrR0dHSuqysLBw6dEj6sPfz84O1tbVGm7t37+LChQtSG39/fyQnJ+PEiRNSm+PHjyM5OVlqU1SsEBARkSyU9CyDJ0+e4Nq1a9Lr2NhYnDlzBs7OzqhcuTJCQkIQGhoKHx8f+Pj4IDQ0FPb29ujXrx8AQKVSITg4GOPHj4eLiwucnZ0xYcIE+Pr6SrMOateujU6dOmHo0KFYsmQJAOCDDz5At27ddJphADAhICIimSjphODUqVNo27at9HrcuHEAgIEDByIqKgoTJ05Eeno6Ro4ciaSkJDRv3hx79uyBo6OjtM+8efNgZWWFPn36ID09He3atUNUVBQsLS2lNuvWrcPYsWOl2Qjdu3d/4b0PtJ6eEELovNcrIiUlBSqVCjf+fgjHf/XnEJmTp1m5L29EVEqlpqSgnrcbkpOTNfrlDSn/s8LxP0ugsLYr9nFEdjpSfxxm1FhNiWMIiIiIiF0GREQkE/+aOljs/c0YEwIiIpKFkh5DUNqwy4CIiIhYISAiInl49gRjfSoEhovlVcSEgIiIZEEBfR9QZN4ZAbsMiIiIiBUCIiKSBw4q1I4JARERyQOnHWrFLgMiIiJihYCIiGRCzy4DwS4DIiKi0k/fMQT6zVB49TEhICIiWWBCoB3HEBARERErBEREJBOcZaAVEwIiIpIFdhloxy4DIiIiYoWAiIjkgRUC7ZgQEBGRLDAh0I5dBkRERMQKARERyQMrBNoxISAiInngtEOt2GVARERErBAQEZE8sMtAOyYEREQkC0wItGNCQEREssCEQDuOISAiIiJWCIiISCY4y0ArJgRERCQL7DLQjl0GRERExAoBAcfOXMeSDftx7ko8Eh+mYNmswejUur60/aNZ6/DD7pMa+zSq44XtSz7SWBdzIRZzlv2C05duwdrKAnWqV8T3Xw2DndKmRM6DqDBL1u/DnsPncSMuEbZKazSq44UJH3RDVU83qY0QAgu/34NNO48hJfUpGtT2wtSxveBTRQ0AuJ3wCO36zyr0+JFT30PnNg1K5FxIP6wQaGfyhGDRokWYO3cu7t69i7p16yIyMhKvv/66qcOSlfSMTNSu7oE+XZrhg89WFdomoHktfD25n/Ta2tpSY3vMhVgMmLAEo95tj5khvWBjZYVL1/6GhYJFKDKtE+euo3/3lvCtVRm5uXmYt+IXBE9cip0rP4a9nRIAsGzjAaz64RBmT+yLKpXKY/HavXh/4hLsjpqEMva2qFC+LA7/d5rGcTftOIYVmw6gdbNapjgtKgYF9EwIzHwQgUkTgk2bNiEkJASLFi1Cq1atsGTJEnTu3BmXLl1C5cqVTRmarLRtUQdtW9TR2sbG2gpuLk4v3D5jwTa837s1Rr3bXlrn7VneYDESFdeK2R9ovA6b2Bf+/5mGi3/dRtP61SCEwPdbfsPwfu0R+Pqzylj4pHfQsvc07Nh3Gn2D/GFpaYHyzpq//3v/OI/OAQ3h8E9SQVTamfTrW0REBIKDgzFkyBDUrl0bkZGR8PT0xOLFi00ZFhXi2JlraBj0GVq/MwsTwzfiQVKqtO1BUipOX7oF17Jl0HNEJBp1/wy9Ry/AiXM3TBgxUeFS0zIAACpHewDA7buPcP9RKl5rUkNqY2NjhaYNquH0xZuFHuPC1XhcvnYHvbs0M3q8ZDj5XQb6LObMZAlBVlYWYmJiEBgYqLE+MDAQR44cMVFUVJi2LWpj/ucDsPGbUfh8dA+c/V8c3v7wW2Rm5QAA4u48BABErNqNd7r5Y81Xw1GvRiW8E/ItYuPvmzJ0Ig1CCIQt/gl+9bxRw7sCAOB+UgoAwKWco0Zb13KOePDPtuf9sOsEqlV2R+O63sYNmAxLYYDFjJmsy+DBgwfIzc2Fu7u7xnp3d3ckJCQUuk9mZiYyMzOl1ykphf9jJcPq3q6x9P+1qlZA/Zqe8H9rJvYfvYjObRogL08AAPp3b4m3uzYHANSrUQl/xFzFpp3H8MnwIJPETfS8mfO34OqNu1j/zegC257/9ieEAAr5RpiRmY0d+/7EyHc7GC1OIlMw+Yivwv4RvqgsExYWBpVKJS2enp4lESI9x91VhYrqcoi9/ezbf/7Yghr/jMjOV72KO/5OfFzS4REV6osFW7D/6EWs/noE1OXLSuvLl3v2+/vgkeYXjIePn8C1rGbVAAB2/3YWGZnZ6BnYxKjxkuGxy0A7kyUErq6usLS0LFANSExMLFA1yDd58mQkJydLS3x8fEmESs9JSk7D3cTHUiLgWcEZ7q4qXI9P1GgXG38fFd3LmSJEIokQAjPnb8Ge389j9Vcj4FnBRWN7pQrOKO/siD9irkrrsrJzcPLsdTSqW6XA8X7cdQJv+NeFc9kyxg6dDIwJgXYm6zKwsbGBn58foqOj8eabb0rro6Oj0aNHj0L3USqVUCo5otfQ0p5m4ubf/9/XH3/3ES7+dRtlnRxQ1tEeEat2o0ub+nBzccLthEcIX7oT5VQO0r0KFAoFhr/TFhErd6NONQ/U8amIH3afxLVbifjui/dNdVpEAIAZ87dgx74/seiLwXCwV+L+P5UARwc72CqtoVAo8F6v1liyfh+qVCoPr4quWLJ+H2xtbdCtXSONY936+wFOnruBpaFDTHEqpCeFotBeIJ32N2cmnXY4btw4DBgwAE2aNIG/vz+WLl2KuLg4DB8+3JRhyc65K3HoM/Zb6fXMhdsAAL07NUXohLfwv+t38OPuk0h5kg43Fyf4N6qORdMHooy9rbTPkD4ByMzKwYyF2/A45SnqVPfA+nkjUKWia0mfDpGGDdufDVIeMG6Rxvqwj99Gr07PZgkM7dsWmVnZmPHNj0hOTUeD2pWxMvwDjd9x4Fl1wN3VSWNGApG5UAghhCkDWLRoEebMmYO7d++iXr16mDdvHlq3bl2kfVNSUqBSqXDj74dwdHrxHHmi0uxpVq6pQyAymtSUFNTzdkNycjKcjPR3PP+zouqYH2ChdCj2cfIy03BjQW+jxmpKJr9T4ciRIzFy5EhTh0FEROZOzy4Dc592aPJZBkRERGR6Jq8QEBERlQQ+3Eg7JgRERCQLnGWgHbsMiIiIiBUCIiKSBwsLBSwsiv81X+ixb2nAhICIiGSBXQbascuAiIiIWCEgIiJ54CwD7ZgQEBGRLLDLQDsmBEREJAusEGjHMQRERETECgEREckDKwTaMSEgIiJZ4BgC7dhlQERERKwQEBGRPCigZ5eBmT//mAkBERHJArsMtGOXAREREbFCQERE8sBZBtqxQkBERLKQ32Wgz6KLnJwcfPbZZ/D29oadnR2qVq2KmTNnIi8vT2ojhMD06dPh4eEBOzs7BAQE4OLFixrHyczMxJgxY+Dq6goHBwd0794dt2/fNsQl0cCEgIiIyAjCw8Px3XffYeHChbh8+TLmzJmDuXPnYsGCBVKbOXPmICIiAgsXLsTJkyehVqvRoUMHpKamSm1CQkKwdetWbNy4EYcPH8aTJ0/QrVs35ObmGjRedhkQEZEslHSXwdGjR9GjRw907doVAFClShVs2LABp06dAvCsOhAZGYkpU6agV69eAIDVq1fD3d0d69evx7Bhw5CcnIwVK1ZgzZo1aN++PQBg7dq18PT0xN69e9GxY8din8/zWCEgIiJZMFSXQUpKisaSmZlZ6Pu99tpr2LdvH65evQoAOHv2LA4fPowuXboAAGJjY5GQkIDAwEBpH6VSiTZt2uDIkSMAgJiYGGRnZ2u08fDwQL169aQ2hsIKARERyYKhKgSenp4a66dNm4bp06cXaD9p0iQkJyejVq1asLS0RG5uLmbNmoV33nkHAJCQkAAAcHd319jP3d0dt27dktrY2NigXLlyBdrk728oTAiIiIh0EB8fDycnJ+m1UqkstN2mTZuwdu1arF+/HnXr1sWZM2cQEhICDw8PDBw4UGr3fJIihHhp4lKUNrpiQkBERPKg542J8m9U6OTkpJEQvMjHH3+MTz75BH379gUA+Pr64tatWwgLC8PAgQOhVqsBPKsCVKhQQdovMTFRqhqo1WpkZWUhKSlJo0qQmJiIli1b6nEyBXEMARERyUJ+l4E+iy6ePn0KCwvNj1lLS0tp2qG3tzfUajWio6Ol7VlZWTh06JD0Ye/n5wdra2uNNnfv3sWFCxcMnhCwQkBERGQEQUFBmDVrFipXroy6devi9OnTiIiIwODBgwE8S1BCQkIQGhoKHx8f+Pj4IDQ0FPb29ujXrx8AQKVSITg4GOPHj4eLiwucnZ0xYcIE+Pr6SrMODIUJARERyUJJP8tgwYIF+PzzzzFy5EgkJibCw8MDw4YNw9SpU6U2EydORHp6OkaOHImkpCQ0b94ce/bsgaOjo9Rm3rx5sLKyQp8+fZCeno527dohKioKlpaWxT+ZQiiEEMKgRyxBKSkpUKlUuPH3QzgWoT+HqDR6mmXYm48QvUpSU1JQz9sNycnJReqXL478z4pmM3fBytah2MfJyUjDiamdjRqrKXEMAREREbHLgIiI5IGPP9aOCQEREckCn3aoHbsMiIiIiBUCIiKSB1YItGNCQEREssAxBNoxISAiIllghUA7jiEgIiIiVgiIiEge2GWgHRMCIiKSBXYZaMcuAyIiImKFgIiI5EEBPbsMDBbJq4kJARERyYKFQgELPTICffYtDdhlQERERKwQEBGRPHCWgXZMCIiISBY4y0A7JgRERCQLFopniz77mzOOISAiIiJWCIiISCYUepb9zbxCwISAiIhkgYMKtWOXAREREbFCQERE8qD45z999jdnTAiIiEgWOMtAO3YZEBERESsEREQkD7wxkXZFSgjmz59f5AOOHTu22MEQEREZC2cZaFekhGDevHlFOphCoWBCQEREVAoVKSGIjY01dhxERERGxccfa1fsQYVZWVm4cuUKcnJyDBkPERGRUeR3GeizmDOdE4KnT58iODgY9vb2qFu3LuLi4gA8Gzswe/ZsgwdIRERkCPmDCvVZzJnOCcHkyZNx9uxZHDx4ELa2ttL69u3bY9OmTQYNjoiIiEqGztMOt23bhk2bNqFFixYa2VKdOnVw/fp1gwZHRERkKJxloJ3OCcH9+/fh5uZWYH1aWprZl1OIiKj04qBC7XTuMmjatCl27twpvc5PApYtWwZ/f3/DRUZEREQlRucKQVhYGDp16oRLly4hJycH33zzDS5evIijR4/i0KFDxoiRiIhIb4p/Fn32N2c6VwhatmyJP/74A0+fPkW1atWwZ88euLu74+jRo/Dz8zNGjERERHrjLAPtivUsA19fX6xevdrQsRAREZGJFCshyM3NxdatW3H58mUoFArUrl0bPXr0gJUVn5VERESvJj7+WDudP8EvXLiAHj16ICEhATVr1gQAXL16FeXLl8f27dvh6+tr8CCJiIj0xacdaqfzGIIhQ4agbt26uH37Nv7880/8+eefiI+PR/369fHBBx8YI0YiIiIyMp0rBGfPnsWpU6dQrlw5aV25cuUwa9YsNG3a1KDBERERGZKZf8nXi84Vgpo1a+LevXsF1icmJqJ69eoGCYqIiMjQOMtAuyJVCFJSUqT/Dw0NxdixYzF9+nS0aNECAHDs2DHMnDkT4eHhxomSiIhITxxUqF2REoKyZctqZEZCCPTp00daJ4QAAAQFBSE3N9cI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"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fc75248c-1045-479d-9622-465c8b9dc663">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.7-Tuned-Decision-Tree-Classification-Report">3.7 Tuned Decision Tree Classification Report<a class="anchor-link" href="#3.7-Tuned-Decision-Tree-Classification-Report">¶</a></h2><p>The classification report summarizes the tuned Decision Tree's precision, recall, F1-score, and support for each outcome class. These results provide additional insight into how effectively the tuned model identifies both readmitted and non-readmitted patients.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b5fe5cc5-721b-414f-ae66-b2ee103add44">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display the classification report</span>
+<span class="c1"># for the tuned Decision Tree</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Tuned Decision Tree Classification Report"</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span>
+    <span class="n">classification_report</span><span class="p">(</span>
+        <span class="n">y_test</span><span class="p">,</span>
+        <span class="n">y_pred_tree_tuned</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Tuned Decision Tree Classification Report
+              precision    recall  f1-score   support
+
+           0       0.62      0.43      0.51       363
+           1       0.85      0.92      0.88      1237
+
+    accuracy                           0.81      1600
+   macro avg       0.74      0.68      0.70      1600
+weighted avg       0.80      0.81      0.80      1600
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d4de9c33-8dae-410b-9945-98a6a8c9aed3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.8-Decision-Tree-Model-Summary">3.8 Decision Tree Model Summary<a class="anchor-link" href="#3.8-Decision-Tree-Model-Summary">¶</a></h2><p>The initial Decision Tree model demonstrated substantial overfitting, achieving 100% accuracy on the training dataset but only 73.8% accuracy on the testing dataset. This indicated that the unrestricted tree had learned patterns specific to the training observations that did not generalize effectively to unseen patients.</p>
+<p>To address this issue, five-fold cross-validation and grid search were used to evaluate combinations of <code>max_depth</code>, <code>min_samples_split</code>, and <code>min_samples_leaf</code>. The best-performing configuration limited the tree to a maximum depth of 5 and required at least 20 observations in each leaf.</p>
+<p>After tuning, testing accuracy improved from 73.8% to 81.2%, recall increased from 82.0% to 92.4%, F1-score increased from 82.9% to 88.4%, and ROC-AUC increased from 0.640 to 0.815. Training accuracy decreased from 100% to 81.1%, becoming nearly identical to the testing accuracy of 81.2%. This substantial reduction in the training-testing performance gap indicates that controlling tree complexity successfully reduced overfitting and improved generalization.</p>
+<p>The classification report also revealed differences in performance between the two outcome classes. The tuned model achieved a recall of 92% for patients who were readmitted but only 43% for patients who were not readmitted. This suggests that the model favors identifying readmissions, which should be considered when comparing it with alternative classification models.</p>
+<p>Overall, the tuned Decision Tree provides substantially better generalization than the unrestricted model and performs competitively with the Logistic Regression baseline. However, Logistic Regression currently maintains a higher ROC-AUC and recall, while the tuned Decision Tree provides slightly higher precision.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=19641e6a-6770-495d-b42b-ee295b89b035">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
