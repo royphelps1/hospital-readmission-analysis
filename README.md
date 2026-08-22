@@ -6,23 +6,54 @@ Exploratory data analysis and predictive modeling of hospital readmissions using
 
 ## Project Overview
 
-Hospital readmissions are an important quality metric in healthcare, impacting patient outcomes, hospital resources, and healthcare costs.
+Hospital readmissions are an important healthcare quality concern because they can affect patient outcomes, healthcare utilization, and costs. This project investigates patient demographic and clinical characteristics associated with 30-day hospital readmission and evaluates machine learning approaches for predicting readmission outcomes.
 
-The objective of this project is to explore patient characteristics associated with hospital readmissions and develop machine learning models capable of predicting readmission risk.
+Using a synthetic healthcare dataset containing 8,000 patient records, the project combines exploratory data analysis, feature assessment, supervised classification, hyperparameter tuning, and model interpretation. Three classification approaches—Logistic Regression, Decision Tree, and Random Forest—were evaluated and compared.
 
-This project was completed as part of the **DSCI-521: Foundations of Data Science** course in the **Master of Science in Data Science** program at **Drexel University**.
+A potentially problematic feature, `readmission_risk_score`, was separately investigated because its method of construction was undocumented and could introduce data leakage. The final modeling approach excludes this variable.
+
+This project was completed as part of DSCI-521: Foundations of Data Science in the Master of Science in Data Science program at Drexel University.
+
+---
+
+## Key Findings
+
+The analysis identified several important patterns associated with hospital readmission:
+
+* **Previous hospital readmissions** emerged as one of the strongest predictors of future readmission.
+* **Comorbidity burden** was strongly associated with increased readmission risk.
+* Several primary diagnosis categories, including **Sepsis, COPD, Stroke, Kidney Disease, and Heart Failure**, were associated with higher predicted readmission odds in the Logistic Regression model.
+* **Length of stay** provided predictive information but was comparatively less influential than previous utilization, comorbidity burden, and diagnosis.
+* Removing `readmission_risk_score` produced only a minimal reduction in predictive performance, supporting its exclusion from the final model because of potential data-leakage concerns.
+* Hyperparameter tuning substantially reduced overfitting in the Decision Tree and Random Forest models.
+* **Logistic Regression was selected as the preferred final model** because it provided the strongest overall combination of predictive performance and interpretability.
+
+### Final Model Performance
+
+| Metric            | Logistic Regression |
+| ----------------- | ------------------: |
+| Accuracy          |           **0.814** |
+| Precision         |           **0.832** |
+| Recall            |           **0.951** |
+| F1-Score          |           **0.888** |
+| ROC-AUC           |           **0.839** |
+| Average Precision |           **0.941** |
+
+The final Logistic Regression model achieved approximately **95.1% recall** for the readmitted class while retaining greater interpretability than the tree-based alternatives.
+
+Note: Because the dataset is synthetic, these findings demonstrate the analytical and machine learning methodology and should not be interpreted as clinically validated relationships.
 
 ---
 
 ## Objectives
 
-The primary objectives of this project are to:
+The primary objectives of this project were to:
 
 - Perform exploratory data analysis (EDA) on a healthcare dataset.
 - Assess data quality and examine patient characteristics.
 - Identify factors associated with hospital readmission.
 - Visualize relationships between patient characteristics and readmission outcomes.
-- Engineer features for analysis and predictive modeling.
+- Prepare and transform features for exploratory analysis and predictive modeling.
 - Build multiple machine learning classification models.
 - Tune model hyperparameters using cross-validation.
 - Evaluate and compare model performance.
@@ -33,7 +64,7 @@ The primary objectives of this project are to:
 
 ## Research Questions
 
-This project seeks to answer the following research questions:
+This project investigates the following research questions:
 
 - Which patient characteristics are most strongly associated with 30-day hospital readmissions?
 - Does the length of a patient's hospital stay influence the likelihood of readmission?
@@ -88,13 +119,9 @@ hospital-readmission-analysis/
 │       └── hospital_readmission_processed.csv
 │
 ├── notebooks/
-│   └── 01_exploratory_data_analysis.ipynb
+│   └── Project_analysis_v3.ipynb
 │
 ├── images/
-│
-├── reports/
-│
-├── src/
 │
 ├── README.md
 └── .gitignore
@@ -167,7 +194,7 @@ Data preparation was performed before predictive modeling.
 The workflow includes:
 
 - Identification of categorical and numerical variables
-- Creation of patient age groups for exploratory analysis
+- Preparation and transformation of features for exploratory analysis and predictive modeling
 - Preservation of the original raw dataset
 - Export of the feature-enriched dataset to `data/processed`
 - Removal of identifiers and variables not used for modeling
@@ -211,37 +238,40 @@ Training and testing performance were compared, followed by hyperparameter tunin
 
 Cross-validation ROC-AUC was used as the scoring metric during model tuning.
 
+### Feature Selection and Data Leakage Assessment
+
+The provided `readmission_risk_score` variable was investigated separately because its method of construction was undocumented. If the score incorporated information unavailable at the time a readmission prediction would normally be made, including it could introduce data leakage.
+
+Logistic Regression models were therefore compared with and without `readmission_risk_score`. Removing the variable produced only a minimal change in predictive performance while maintaining strong recall and discrimination. The variable was consequently excluded from the final feature set used for model comparison.
+
 ---
 
 ## Model Evaluation
 
-Model performance was evaluated using several classification metrics:
+Model performance was evaluated using multiple complementary classification metrics:
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC
-- Average Precision
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* ROC-AUC
+* Average Precision
 
-Additional evaluation methods include:
+Additional evaluation methods included confusion matrices, classification reports, ROC curves, Precision-Recall curves, training versus testing accuracy, and cross-validation performance.
 
-- Confusion matrices
-- Classification reports
-- ROC curves
-- Precision-Recall curves
-- Training versus testing accuracy
-- Cross-validation performance
+### Final Model Comparison
 
-The final model comparison evaluates:
+| Model                   |  Accuracy | Precision |    Recall |  F1-Score |   ROC-AUC | Average Precision |
+| ----------------------- | --------: | --------: | --------: | --------: | --------: | ----------------: |
+| **Logistic Regression** | **0.814** |     0.832 | **0.951** | **0.888** | **0.839** |         **0.941** |
+| Tuned Decision Tree     |     0.812 | **0.847** |     0.924 |     0.884 |     0.815 |             0.929 |
+| Tuned Random Forest     |     0.799 |     0.819 |     0.949 |     0.879 |     0.828 |             0.938 |
 
-- Logistic Regression
-- Tuned Decision Tree
-- Tuned Random Forest
+Although the differences between the models were relatively modest, Logistic Regression achieved the highest accuracy, recall, F1-score, ROC-AUC, and Average Precision. The tuned Decision Tree achieved the highest precision.
 
----
+Based on predictive performance, generalization, and interpretability, **Logistic Regression was selected as the preferred final model**.
 
-## Precision-Recall Analysis
+### Precision-Recall Analysis
 
 Precision-Recall analysis was performed to provide an additional comparison of classifier performance.
 
@@ -337,7 +367,7 @@ jupyter notebook
 Navigate to:
 
 ```text
-notebooks/01_exploratory_data_analysis.ipynb
+notebooks/Project_analysis_v3.ipynb
 ```
 
 ### 5. Run the Notebook
@@ -399,32 +429,34 @@ Several practices were used to make the analysis reproducible:
 
 ## Project Status
 
-**Complete**
+**Status: Complete**
 
 ### Phase 1 – Project Scoping and Exploratory Data Analysis
 
-- Repository initialization
-- Project organization
-- Dataset selection
+- Dataset selection and evaluation
 - Data quality assessment
 - Exploratory data analysis
 - Data visualization
-- Preliminary feature analysis
+- Feature assessment
+- Research question development
 
-### Phase 2 – Predictive Modeling
+### Phase 2 – Predictive Modeling and Model Evaluation
 
-- Data preprocessing
-- Feature engineering
-- Processed dataset creation
-- Train/test split
+- Data preprocessing and feature engineering
 - Logistic Regression modeling
-- Decision Tree modeling
-- Random Forest modeling
-- Hyperparameter tuning
-- Model evaluation and comparison
-- Feature importance analysis
-- Logistic Regression interpretation
-- Precision-Recall analysis
+- Data-leakage assessment
+- Decision Tree modeling and tuning
+- Random Forest modeling and tuning
+- Cross-validation and hyperparameter optimization
+- Model comparison
+- Precision-Recall and Average Precision analysis
+- Random Forest feature importance
+- Logistic Regression coefficient and odds-ratio interpretation
+- Final model selection
+- Research question findings
+- Final conclusions and recommendations
+
+**Preferred Final Model:** Logistic Regression
 
 ---
 
